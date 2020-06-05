@@ -1,0 +1,64 @@
+﻿
+html, body {
+    height: 100%;
+}
+
+header {
+    display: block;
+    background-color: #286af0;
+    padding: 40px 0px;
+}
+
+section {
+    background-color: #fafafa;
+    padding: 5px;
+    overflow: auto;
+    float: right;
+    width: 79%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-height: 450px;
+    color: #fafafa;
+}
+
+aside {
+    /*float: right;*/
+    float: left;
+    width: 19%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    background-color: #286af0;
+    text-align: center;
+    color: #fafafa;
+}
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+}
+
+#carrito {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    z-index: 2;
+    right: 30%;
+}
